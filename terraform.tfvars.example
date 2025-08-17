@@ -1,0 +1,19 @@
+﻿# Example Terraform variables
+# Copy this file to terraform.tfvars and fill in your actual values
+
+# AWS Configuration
+aws_region = "us-east-1"
+
+# Email Configuration (REQUIRED)
+sender_email    = "your-email@gmail.com"
+sender_password = "your-gmail-app-password"
+alert_email     = "b95702041@gmail.com"
+
+# SSH Key Configuration  
+public_key_path = "~/.ssh/id_rsa.pub"
+
+# Application Configuration
+target_rate = 33.0
+
+# Billing Alert Configuration
+billing_threshold = 1.0
