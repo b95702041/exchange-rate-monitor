@@ -1,3 +1,6 @@
+# Check if main.tf has duplicate terraform blocks
+# Edit main.tf and make sure it only has ONE terraform block at the top
+
 # main.tf
 terraform {
   required_version = ">= 1.0"

@@ -36,11 +36,7 @@ git clone <this-repo>
 cd exchange-rate-monitor
 ```
 
-### 2. Configure Gmail
-
-1. Enable 2-Factor Authentication on Gmail
-2. Generate App Password: [Google Account Security](https://myaccount.google.com/security)
-3. Save the 16-character app password
+### 2. Configure Gmail App
 
 ### 3. Configure Variables
 
